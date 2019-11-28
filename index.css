@@ -230,8 +230,7 @@ font-family: 'Rouge Script', cursive;*/
             justify-content: center;
             align-items: center; 
             margin-top: 15em;
-            padding: 0em 2em 0em 2em;
-                            
+                                  
         }
         .brand-logo p{
             margin-left: 4em; 
@@ -242,6 +241,7 @@ font-family: 'Rouge Script', cursive;*/
         }
         .sign-in  {
             margin-top: -5em;
+            padding: 0em 4em 0em -4em;
 
         }
         .sign-in h1 {
@@ -249,7 +249,7 @@ font-family: 'Rouge Script', cursive;*/
         }
               
          .form {
-            padding: 0em 2em 0em 2em;
+            padding: 0em -4em 0em -4em;
          }
         .toggle-btn  {
             display: flex;                   
