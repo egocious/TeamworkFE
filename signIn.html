@@ -43,7 +43,7 @@
                     <a href="https://facebook.com" target="_blank"><img src="https://res.cloudinary.com/partypack/image/upload/c_scale,w_181/v1568628007/facebook_ylbio1.jpg" alt="facebook-logo"/>
                     <a href="https://twitter.com" target="_blank"><img src="https://res.cloudinary.com/dzflnjyii/image/upload/v1568741827/twitter_ya44rx.jpg" alt="twitter-logo" width="160" height="35"   class="twit"/></a> --> 
             
-        <form action= "posts.html"  onsubmit= "return validate()" method="post">
+        <form action= "posts.html"  onsubmit= "return validation()" method="post">
             <input type="email" id="email" name="email" placeholder="    Email"  required>
             <br><br>  
             <input type="password" id="password" name="password" placeholder="    Password" minlength="8" maxlength="14" required>
@@ -56,14 +56,7 @@
          
         </div>        
     </section> 
-    <script>
-        const toggleButtton= document.getElementsByClassName('toggle-btn')[0]
-        const navbarLinks= document.getElementsByClassName('nav-links')[0]
-
-        toggleButton.addEventListener('click', () => {
-            navbarLinks.classList.toggle('active')
-        });
-    </script> 
+    <script src="index.js"></script> 
     
     
 </body>
